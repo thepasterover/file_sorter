@@ -23,6 +23,16 @@ You need to have both os and shutil modules installed. You can install install t
 >pip3 install shutil
 >pip3 install os
 
+## Deplyoment
+To deploy this in your live system.
+> git clone https://github.com/thepasterover/file_sorter.git
+
+Change directory:
+> cd ~/file_sorter/
+
+To ensure that your master branch is up-to-date, use the pull command:
+> git pull https://github.com/thepasterover/file_sorter.git master
+
 ## Built with
 [Python3](https://www.python.org/) - The language used.
 [Shutil](https://docs.python.org/2/library/shutil.html) - Used to move files.
